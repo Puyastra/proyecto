@@ -6,3 +6,12 @@ Aplicación web para alquilar coches permitiendo a los usuarios encontrar, reser
 - Búsqueda de vehículos por ubicación y fecha
 - Filtrado avanzado por tipo de vehículo, precio y características
 - Reservas instantáneas con confirmación inmediata
+
+### Tecnologías utilizadas
+
+| Componente | Tecnología |
+|------------|------------|
+| Frontend   | html/css |
+| Backend    | PHP |
+| Base de datos | MySQL |
+| Autenticación | PHP Sessions |
