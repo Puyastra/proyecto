@@ -26,7 +26,7 @@ link pagina web: [Automotive Rental Trends](https://www.alquilerdecoches.com/)
 require_once "usuarioService.php";
 session_start();
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    $telefono = $_POST['usuario'];
+    $usuario = $_POST['usuario'];
     $password = $_POST['password'];
     if (login($usuario, $password)) {
         echo '<p><a href="/coches/index.php">Volver</a></p>';
