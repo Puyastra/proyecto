@@ -21,6 +21,8 @@ link pagina web: [Automotive Rental Trends](https://www.alquilerdecoches.com/)
 ![RoadRover Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Database-mysql.svg/724px-Database-mysql.svg.png)
 
 ## Ejemplo de código: Función para iniciar sesión en la página
+```php
+
 <?php
 require_once "usuarioService.php";
 session_start();
